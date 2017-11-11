@@ -17,3 +17,29 @@
  footer { margin-top: 100px; }
  table, td, th { vertical-align: middle; border: none; }
  th { border-bottom: 1px solid #DDD; }
+ .navbar {
+   min-height: 38px;
+ }
+
+ .navbar a.brand {
+   font-size: 18px;
+ }
+ .navbar a.brand:hover {
+   color: #fff;
+   background-color: transparent;
+   text-decoration: none;
+ }
+
+ .gravatar_image {
+   width: 20px;
+   height: 20px;
+ }
+ 
+ footer {
+   background-color: #c2ccd0;
+   padding: 20px 0;
+ }
+
+ .input-name {
+   width: 150px;
+ }
